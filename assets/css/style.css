@@ -1,0 +1,528 @@
+* {
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+main {
+	width:100%;
+}
+
+
+.first-container {
+	background-image: url(../images/bg-port.jpeg);
+	height:420px;
+}
+
+li {
+	list-style: none;
+}
+
+img[alt*="profile"] {
+	height:365px;
+	width:300px;
+}
+
+.info-container {
+	margin-top:120px;
+	width:60%;
+	height:20vh;
+	
+	
+}
+
+.foot {
+	background-color: black;
+	height:10vh;
+}
+
+.btn-success {
+	border-radius:1px;
+}
+
+.fab {
+	margin:26px;
+	margin-left: 98px;
+	margin-top: 40px;
+
+	
+} /*end of info section*/
+
+
+.bot {
+	/*margin-top:178px;*/
+	background-color:#F7EEF2;
+	height:24vh;
+}
+
+.prog-bar {
+	padding:1.5rem 3rem 3rem 3rem;
+	color:#1487B3;
+	background-color: black;
+	height:54%;
+} /*end of skills*/
+
+
+.capstone {
+	padding:1.5rem 3rem 3rem 3rem;
+	background-color:#F7EEF2;
+	height:63%;
+
+}
+
+.card {
+	margin-top: 25px;
+}
+
+.card-body {
+	background-color: black;
+	color:#1487B3;
+}
+
+.text {
+	color:white;
+	font-family: 'Chakra Petch', sans-serif;
+} /*end of capstone*/
+
+
+.footeh {
+	background-color: black;
+}
+
+.paa {
+	color:#1487B3;
+
+}
+
+
+.header-title {
+	color:#1487B3;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bolder;
+	margin:10px 0px 16px 0px;
+
+}
+
+.text3 {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+}
+
+.learned {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin:10px;
+
+}
+
+.btn-success {
+	font-family: 'Chakra Petch', sans-serif;
+	height:5vh;
+}
+
+.port-info {
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size:20px;
+
+}
+
+.info-title {
+	font-weight: bolder;
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size: 24px;
+}
+
+.info-title1 {
+	font-weight: bold;
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/desktop view*/
+
+@media only screen and (min-width: 961px) {
+
+.portfolio-container {
+	width: 100%;
+}
+
+.col-lg-1 {
+	width:8.33%; /*100/12*/
+}
+
+.col-lg-2 {
+	width: 16.66%; /*100/12 * 2*/
+}
+
+.col-lg-3 {
+	width: 25%; 
+}
+
+.col-lg-4 {
+	width: 33.33%; 
+}
+
+.col-lg-5 {
+	width: 41.66%; 
+}
+
+.col-lg-6 {
+	width: 50%; 
+}
+
+.col-lg-7 {
+	width:58.33%; 
+}
+.col-lg-8 {
+	width:66.66%; 
+}
+
+.col-lg-9 {
+	width: 75%; 
+}
+.col-lg-10 {
+	width: 83.33%; 
+}
+.col-lg-11 {
+	width: 91.66%; 
+}
+
+.col-lg-12 {
+	width: 100%; 
+}
+
+}
+
+/*tablet rules*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+.btn-success {
+	border-radius:1px;
+	height:3vh;
+	font-size: 12px;
+}
+
+.fab {
+	margin:26px;
+	margin-left: 45px;
+	margin-top: 20px;
+	
+}
+
+.first-container {
+	background-image: url(../images/bg-port.jpeg);
+	height:200%;
+}
+
+.foot {
+	background-color: black;
+	height:5vh;
+}
+
+.bot {
+	/*margin-top:178px;*/
+	background-color:#F7EEF2;
+	height:12vh;
+}
+
+li {
+	list-style: none;
+}
+.port-info {
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size:16px;
+	margin-bottom: 1px;
+
+}
+
+.info-title {
+	font-weight: bolder;
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size: 20px;
+}
+
+.info-title1 {
+	font-weight: bold;
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size: 17px;
+}
+
+
+img[alt*="profile"] {
+	height:260px;
+	width:206px;
+	margin:-8px;
+} /*end of first container*/
+
+
+/*skill*/
+.prog-bar {
+	padding:1rem 2.5rem 2.5rem 2.5rem;
+	color:#1487B3;
+	background-color: black;
+	height:44%;
+} 
+
+.learned {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin:10px;
+	font-size: 22px;
+}
+
+.header-title {
+	color:#1487B3;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bolder;
+	margin:10px 0px 16px 0px;
+	font-size: 24px;
+
+} /*end of skills section*/
+
+/*capstone section*/
+
+.text3 {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.text {
+	color:white;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 15px;
+} /*end of capstone*/
+
+
+.portfolio-container {
+	width: 100%;
+}
+
+	.col-md-1 {
+	width:8.33%; /*100/12*/
+}
+
+.col-md-2 {
+	width: 16.66%; /*100/12 * 2*/
+}
+
+.col-md-3 {
+	width: 25%; 
+}
+
+.col-md-4 {
+	width: 33.33%; 
+}
+
+.col-md-5 {
+	width: 41.66%; 
+}
+
+.col-md-6 {
+	width: 50%; 
+}
+
+.col-md-7 {
+	width:58.33%; 
+}
+.col-md-8 {
+	width:66.66%; 
+}
+
+.col-md-9 {
+	width: 75%; 
+}
+.col-md-10 {
+	width: 83.33%; 
+}
+.col-md-11 {
+	width: 91.66%; 
+}
+
+.col-md-12 {
+	width: 100%; 
+}
+
+}
+
+@media only screen and (max-width:400px ){
+
+
+.btn-success {
+	border-radius:1px;
+	height:5vh;
+	font-size: 12px;
+}
+
+.fab {
+	margin:26px;
+	margin-left: 5px;
+	margin-top: 12px;
+	
+}
+
+.first-container {
+	background-image: url(../images/bg-port.jpeg);
+	height:200%;
+}
+
+.foot {
+	background-color: black;
+	height:6vh;
+	margin-top: 15px;
+}
+
+.bot {
+	/*margin-top:178px;*/
+	background-color:#F7EEF2;
+	height:64vh;
+}
+
+li {
+	list-style: none;
+}
+.port-info {
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size:18px;
+	margin-bottom: 1px;
+	letter-spacing: -1px;
+
+}
+
+.info-title {
+	font-weight: bolder;
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size: 21px;
+	text-align: center;
+	margin:3px;
+}
+
+.info-title1 {
+	font-weight: bold;
+	font-family: 'Chakra Petch', sans-serif;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+}
+
+
+img[alt*="profile"] {
+	height:290px;
+	width:240px;
+	margin-top:-80px;
+} /*end of first container*/
+
+
+/*skill*/
+.prog-bar {
+	padding:1rem 2.5rem 2.5rem 2.5rem;
+	color:#1487B3;
+	background-color: black;
+	height:44%;
+} 
+
+.learned {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin:10px;
+	font-size: 22px;
+}
+
+.header-title {
+	color:#1487B3;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bolder;
+	margin:10px 0px 16px 0px;
+	font-size: 24px;
+
+} /*end of skills section*/
+
+/*capstone section*/
+
+.text3 {
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.text {
+	color:white;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 15px;
+} /*end of capstone*/
+
+
+
+.portfolio-container {
+	width: 100%;
+}
+
+.col-sm-1 {
+	width:8.33%; /*100/12*/
+}
+
+.col-sm-2 {
+	width: 16.66%; /*100/12 * 2*/
+}
+
+.col-sm-3 {
+	width: 25%; 
+}
+
+.col-sm-4 {
+	width: 33.33%; 
+}
+
+.col-sm-5 {
+	width: 41.66%; 
+}
+
+.col-sm-6 {
+	width: 50%; 
+}
+
+.col-sm-7 {
+	width:58.33%; 
+}
+.col-sm-8 {
+	width:66.66%; 
+}
+
+.col-sm-9 {
+	width: 75%; 
+}
+.col-sm-10 {
+	width: 83.33%; 
+}
+.col-sm-11 {
+	width: 91.66%; 
+}
+
+.col-sm-12 {
+	width: 100%; 
+}
+}
